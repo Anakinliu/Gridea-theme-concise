@@ -1,0 +1,9 @@
+pre {
+    position: relative;
+}
+
+pre>button {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
