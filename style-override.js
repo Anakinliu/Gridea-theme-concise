@@ -203,7 +203,7 @@ const generateOverride = (params = {}) => {
 			}
 
 			.row .post-row-container ,
-			#post-content-article .container .post-feature-header-image {
+			#post-content-article .container-fluid .post-feature-header-image {
 				box-shadow: 0 3px 15px 2px ${colors["box-shadow-color"][params.skin]};;
 			}
 			

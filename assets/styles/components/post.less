@@ -1,26 +1,34 @@
-#post-content-article .container .row {
-    .post-content-container{
-        display: flex;
-        flex-direction: column;
-        hr {
-            width: 100%;
-        }
-
-        p {
-            margin-bottom: 0;
-        }
+#post-content-article .container-fluid .row {
+  .post-content-container {
+    display: flex;
+    flex-direction: column;
+    hr {
+      width: 100%;
     }
+
+    p {
+      margin-bottom: 0;
+      text-indent: 2em;
+    }
+
+    img {
+      border-radius: 0.5em;
+      margin: .5em auto;
+      border: 2px gray solid;
+    }
+  }
 }
-#post-content-article .container .post-feature-header-image{
-    width: 100%;
-    height: auto;
-    margin-bottom: 24px;
-    border-radius: 15px;
+
+#post-content-article .container-fluid .post-feature-header-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  border-radius: 15px;
 }
 
 /*手机竖屏*/
 @media all and (orientation: portrait) {
-    #post-content-article{
-        padding: 20px 10px;
-    }
+  #post-content-article {
+    padding: 20px 10px;
+  }
 }
